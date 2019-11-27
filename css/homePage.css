@@ -1,0 +1,59 @@
+    h3 {
+      font-size: 65px;
+    }
+    p {
+      font-size: 20px;
+    }
+
+  	.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img
+  	{
+  		  display:block;
+  		  width:100%; height:80%;
+  		  object-fit: cover;	
+  	}
+
+  	.newclass{
+  		right: 0;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+  		height: 100%;
+  		background: rgba(100,100,100,0.3);
+  	}
+
+  	.newclass h3,p{
+  		position: relative;
+  		top: 40%;
+  		left: 0;
+  		right: 0;
+  		transform: translateY(-50%);
+  		text-shadow: none;
+  		font-family: 'Roboto' ,sans-serif;
+  	}
+
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      bottom: 0;
+      left: 0; 
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+  }
+  .text-muted {
+      color: #9ed2ff!important;
+  }
+  section#booking {
+      background-color: #212529;
+      background-image: url(img/back.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .nav li:hover{
+    background-color: red;
+  }
+
+
